@@ -17,7 +17,7 @@ body {
   width: 100%;
   margin: auto;
   background-color:black;
-  
+  flex-wrap: wrap;  
   
 }
 
@@ -27,6 +27,7 @@ body {
   margin: auto;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 
@@ -104,9 +105,11 @@ body {
   margin: 40px;
   border-radius: 2px solid;
   box-shadow: 0 0 50px #FFA62F;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
-  display: inline-block;
-  text-align: center;
   background: rgb(243, 242, 242);
+  
   
 }
