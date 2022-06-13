@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*color var(--main-color);*/
+
+body {
+  background-color:rgba(24, 106, 59) ;
+}
+
+/*--------------Main-Conatainer------------------*/
+
+.main-container{
+  width: 100%;
+  margin: auto;
+  background-color:black;
+  
+  
+}
+
+.main-content{
+  background-color: #033E3E;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.location-name{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.location-info{
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+
+}
+
+.location-info ul li{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  
+    
+}
+
+.location-info span{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*-------------header image-------------------------*/
+
+.header-img{
+  width: 100%;
+  
+}
+
+/*--------------search bar ------------------*/
+
+.search-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 5px;
+  margin-left: 10px;
+}
+
+.button{
+  background: #83d394;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s ease all;
+  margin-right: 10px;
+}
+
+.button:hover{
+  background: #44a559;
+  color: #fff;
+}
+/*------------------------CARD STYLES-----------------------------*/
+
+.card-character{
+  width: 50%;
+  max-width: 400px;
+  padding: 40px;
+  margin: 40px;
+  border-radius: 2px solid;
+  box-shadow: 0 0 50px #FFA62F;
+  flex-wrap: wrap;
+  display: inline-block;
+  text-align: center;
+  background: rgb(243, 242, 242);
+  
+}
