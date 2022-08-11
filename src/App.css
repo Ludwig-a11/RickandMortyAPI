@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Dosis', sans-serif;
   font-family: 'Patrick Hand SC', cursive;
+  font-size: medium;
 }
 
 /*color var(--main-color);*/
@@ -98,6 +99,7 @@ body {
   transition: .3s ease all;
   margin-right: 10px;
   box-shadow: 0 0 15px #FFA62F;
+  padding: 20px;
 }
 
 .button:hover{
