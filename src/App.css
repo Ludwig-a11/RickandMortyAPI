@@ -122,5 +122,20 @@ body {
   background: rgb(243, 242, 242);
   overflow: hidden;
   text-align: center;
+  border-radius: 10px;
   
+}
+
+/*------------------Footer----------------------------*/
+
+.footer{
+  background-color: #06494998;
+  font-weight: 600;
+  color: beige;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;  
+  justify-content: center;
 }

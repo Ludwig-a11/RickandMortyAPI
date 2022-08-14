@@ -1,4 +1,3 @@
-import axios from 'axios'
 import React, { useState,useEffect } from 'react'
 import CardCharacter from './components/CardCharacter'
 import InputSearch from './components/InputSearch'
@@ -16,6 +15,7 @@ const RickAndMortyApp = () => {
 
 
   //console.log(location);
+  
 
   return (
     <div className='main-container'>
@@ -33,6 +33,7 @@ const RickAndMortyApp = () => {
           />
         ))}
       </div>
+      <footer className='footer'>Ludwig/Academlo</footer>
     </div>
   )
 }
