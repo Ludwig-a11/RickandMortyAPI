@@ -96,15 +96,21 @@ body {
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
-  transition: .3s ease all;
+  
   margin-right: 10px;
-  box-shadow: 0 0 15px #FFA62F;
+  box-shadow: 0 0 10px #FFA62F;
   padding: 20px;
 }
 
 .button:hover{
   background: #44a559;
   color: #fff;
+}
+
+.button:active{
+  box-shadow: 0 0 10px #3a8d4c;
+  transform: translateY(2px);
+  transition: .1s ease all;
 }
 /*------------------------CARD STYLES-----------------------------*/
 
@@ -114,7 +120,7 @@ body {
   padding: 40px;
   margin: 40px;
   border-radius: 2px solid;
-  box-shadow: 0 0 50px #FFA62F;
+  box-shadow: 0 0 25px #FFA62F;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -123,7 +129,16 @@ body {
   overflow: hidden;
   text-align: center;
   border-radius: 10px;
-  
+  cursor: pointer;
+}
+
+.card-character:hover{
+  box-shadow: 0 0 20px #d38826;
+}
+
+.card-character:active {
+  box-shadow: 0 0 10px #c27a23;
+  transform: translateY(2px);
 }
 
 /*------------------Footer----------------------------*/
